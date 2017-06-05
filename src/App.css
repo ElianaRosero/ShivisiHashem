@@ -1,0 +1,100 @@
+.Root-Container {
+  flex: 1;
+  display: flex;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/northernlights.jpg);
+  height: 100vh;
+  flex-direction: column;
+  }
+
+.Bsd{
+  display: flex;
+  flex: 1;
+  color: cadetblue;
+  justify-content: flex-end;
+  font-size: 35px;
+  margin-right: 13px;
+}
+
+.Header{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: 91px;
+  font-family: serif;
+  font-style: bold;
+  color: cadetblue; 
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.Time {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    color: cadetblue;
+    font-size: 50px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.Name-Container {
+  display: flex;
+  flex: 8;
+  justify-content: center;
+  align-content: center;
+
+}
+.Name-Container .Name{
+    display: flex;
+    flex-direction: row;
+    justify-content: CENTER;
+    flex: 1;
+    margin-top: 55px;
+}
+
+.Hr23 .yud {
+margin-right: -50px;
+
+}
+.Hr23 .hey1 {
+margin-right: -40px;
+}
+.hey2 {
+margin-bottom: -32px;
+}
+
+
+/*
+Background color change:
+.Root-Container.hr0 {
+  background-color: green;
+}*/
+
+
+/*grainy image stuff
+.Root-Container:after {
+  animation: grain 8s steps(10) infinite;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png);
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.3;
+  position: fixed;
+  top: -120%;
+  width: 300%;
+}
+
+@keyframes grain {
+  0%, 100% { transform:translate(0, 0) }
+  10% { transform:translate(-5%, -10%) }
+  20% { transform:translate(-15%, 5%) }
+  30% { transform:translate(7%, -25%) }
+  40% { transform:translate(-5%, 25%) }
+  50% { transform:translate(-15%, 10%) }
+  60% { transform:translate(15%, 0%) }
+  70% { transform:translate(0%, 15%) }
+  80% { transform:translate(3%, 35%) }
+  90% { transform:translate(-10%, 10%) }
+}
+*/
