@@ -72,7 +72,7 @@ Background color change:
 }*/
 
 
-/*grainy image stuff
+grainy image stuff
 .Root-Container:after {
   animation: grain 8s steps(10) infinite;
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png);
@@ -97,4 +97,4 @@ Background color change:
   80% { transform:translate(3%, 35%) }
   90% { transform:translate(-10%, 10%) }
 }
-*/
+
