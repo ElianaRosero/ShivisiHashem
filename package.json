@@ -2,7 +2,6 @@
   "name": "shivisihashem",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://simchaleh.github.io/ShivisiHashem",
   "dependencies": {
     "flexbox-react": "^4.3.3",
     "react": "^15.5.4",
