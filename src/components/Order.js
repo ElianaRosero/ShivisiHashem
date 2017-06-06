@@ -13,14 +13,14 @@ export default class Order extends React.Component{
     newOrder(timeAsProp) {
         var hour = timeAsProp;
         let returnValue = [];
-        //  var yud = <img height= "380px" alt="yud" key="yud" className="yud" src={require("../img/yud5.png")} />
-        //  var hey1 = <img height= "380px" alt="hey1" key="hey1" className="hey1" src={require("../img/hey5.png")} />
-        //  var vav = <img height= "380px" alt="vav" key="vav" className="vav" src={require("../img/yud5.png")} />
-        //  var hey2 = <img height= "380px" alt="hey2" key="hey2" className="hey2" src={require("../img/hey5.png")} />
-         var yud = <img height= "400px" alt="yud" key="yud" className="yud" src={require("../img/yud.png")} />
-         var hey1 = <img height= "400px" alt="hey1" key="hey1" className="hey1" src={require("../img/hey1.png")} />
-         var vav = <img height= "400px" alt="vav" key="vav" className="vav" src={require("../img/vav.png")} />
-         var hey2 = <img height= "400px" alt="hey2" key="hey2" className="hey2" src={require("../img/hey2.png")} />
+         var yud = <img height= "380px" alt="yud" key="yud" className="yud" src={require("../img/yud5.png")} />
+         var hey1 = <img height= "380px" alt="hey1" key="hey1" className="hey1" src={require("../img/hey5.png")} />
+         var vav = <img height= "380px" alt="vav" key="vav" className="vav" src={require("../img/vav.png")} />
+         var hey2 = <img height= "380px" alt="hey2" key="hey2" className="hey2" src={require("../img/hey5.png")} />
+        //  var yud = <img height= "400px" alt="yud" key="yud" className="yud" src={require("../img/yud.png")} />
+        //  var hey1 = <img height= "400px" alt="hey1" key="hey1" className="hey1" src={require("../img/hey1.png")} />
+        //  var vav = <img height= "400px" alt="vav" key="vav" className="vav" src={require("../img/vav.png")} />
+        //  var hey2 = <img height= "400px" alt="hey2" key="hey2" className="hey2" src={require("../img/hey2.png")} />
         //  console.log(hour)
          if (hour === 0 || hour === 12) {
            returnValue = [    
