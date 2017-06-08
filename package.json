@@ -5,6 +5,7 @@
   "homepage": "https://simchaleh.github.io/ShivisiHashem",
   "dependencies": {
     "flexbox-react": "^4.3.3",
+    "netlify-cli": "^1.2.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

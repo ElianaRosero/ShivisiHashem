@@ -2,6 +2,7 @@ import React /*, { Component }*/ from 'react';
 import './App.css';
 
 import Order from './components/Order';
+import OrderTest from './components/OrderTest';
 
 export default class App extends React.Component{
     constructor(props) {
@@ -41,6 +42,9 @@ export default class App extends React.Component{
                 </div>     
                 <div className="Name-Container">
                   <Order currentTime = {this.state.date}/> 
+                </div> 
+                <div className="Name-Container">
+                  <OrderTest currentTime = {this.state.date}/> 
                 </div> 
                 <div className="Time">           
                   {theTime}
