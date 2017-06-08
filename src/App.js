@@ -43,9 +43,9 @@ export default class App extends React.Component{
                 <div className="Name-Container">
                   <Order currentTime = {this.state.date}/> 
                 </div> 
-                <div className="Name-Container">
+                {/*<div className="Name-Container">
                   <OrderTest currentTime = {this.state.date}/> 
-                </div> 
+                </div> */}
                 <div className="Time">           
                   {theTime}
                 </div>
