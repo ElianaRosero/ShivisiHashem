@@ -38,7 +38,7 @@ export default class App extends React.Component{
                   בסד
                 </div> 
                 <div className="Header">
-                  CHANGE TEST
+                  Shivisi Hashem
                 </div>     
                 <div className="Name-Container">
                   <Order currentTime = {this.state.date}/> 
