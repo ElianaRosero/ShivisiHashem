@@ -2,7 +2,6 @@ import React /*, { Component }*/ from 'react';
 import './App.css';
 
 import Order from './components/Order';
-import OrderTest from './components/OrderTest';
 
 export default class App extends React.Component{
     constructor(props) {
