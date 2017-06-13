@@ -18,5 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/simchaleh/shivisihashem.git",
+  "author": "simchaleh <simchaleh@gmail.com>",
+  "license": "MIT"
 }
