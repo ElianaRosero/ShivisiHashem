@@ -2,7 +2,7 @@
   "name": "shivisihashem",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shivisihashem.com",
+  "homepage": "shivisihashem.com",
   "dependencies": {
     "flexbox-react": "^4.3.3",
     "netlify-cli": "^1.2.2",
