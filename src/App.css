@@ -71,6 +71,12 @@
   align-content: center;
 
 }
+.Name-Container-Preview {
+  display: flex;
+  flex: 8;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
 .Name-Container .Name{
     display: flex;
     flex-direction: row;
