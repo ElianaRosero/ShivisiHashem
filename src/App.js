@@ -10,7 +10,7 @@ import { getCurrentTime, toggleView } from './redux/actions/timeActions';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.toggleView = this.toggleView.bind(this);
+    this.toggleName = this.toggleName.bind(this);
   }
 
   componentWillMount() {
@@ -32,7 +32,7 @@ class App extends Component {
     // this.props.dispatch(getCurrentTime(new Date()))
   }
 
-  toggleView() {
+  toggleName() {
     console.log("i was clicked!")
     const { dispatch } = this.props;
     dispatch(toggleView())
@@ -55,18 +55,17 @@ class App extends Component {
         <div className="Header">
           Redux Test
         </div>
-        <div className="Name-Container" onClick={this.toggleView}>
+        <div className="Name-Container">
           <Order />
         </div>
         <div className="Name-Container-Preview">
           <OrderPreview />
         </div>
         <div className="Time">
-          <button 
-          onClick={this.toggleView}>
-          preview next
-          </button>
           {theTime}
+          <button onClick={this.toggleName}>
+            preview next
+          </button>
         </div>
       </div>
     );

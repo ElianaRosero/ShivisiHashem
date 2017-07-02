@@ -16,7 +16,7 @@ export default function reducer(state=initialState, action){
             return {
                 ...state,
                 previewOn: !state.previewOn
-            }
+            }    
         }
         default: return state
     }
