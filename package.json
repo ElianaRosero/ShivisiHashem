@@ -7,6 +7,7 @@
     "flexbox-react": "^4.3.3",
     "netlify-cli": "^1.2.2",
     "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
     "redux": "^3.7.0"

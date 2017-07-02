@@ -59,7 +59,7 @@ class App extends Component {
           <Order />
         </div>
         <div className="Name-Container-Preview">
-          <OrderPreview />
+           <OrderPreview />
         </div>
         <div className="Time">
           {theTime}
