@@ -1,16 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import newOrder from '../utilities/newOrder';
+import theName from '../utilities/theName';
 
 class OrderPreview extends React.Component {
 
     render() {
-        var time = this.props.currentTime.getHours() + 1;
+        let propsToBePassed = {
+         time: this.props.currentTime.getHours() + 1,
+         letterSize: '100px'
+        }
         if (this.props.previewOn === true) {
             return (
                 <div>
-                    {newOrder(time)}
+                    {theName(propsToBePassed)}
                 </div>
             )
         } else {

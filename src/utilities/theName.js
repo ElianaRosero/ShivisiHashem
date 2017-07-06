@@ -1,12 +1,15 @@
 import React from "react";
 
-export default function newOrder(timeAsProp) {
-    var hour = timeAsProp;
+export default function newOrder(props) {
+    var hour = props.time;
+    let size = props.letterSize;
     let returnValue = [];
-    const yud = <img height= "400px" alt="yud" key="yud" className="yud" src={require("../img/yud.png")} />
-    const hey1 = <img height= "400px" alt="firsthey" key="firsthey" className="firsthey" src={require("../img/firsthey.png")} />
-    const vav = <img height= "400px" alt="vav" key="vav" className="vav" src={require("../img/vav.png")} />
-    const hey2 = <img height= "400px" alt="secondhey" key="secondhey" className="secondhey" src={require("../img/firsthey.png")} />
+    console.log("props", props);
+
+    const yud = <img height= {size} alt="yud" key="yud" className="yud" src={require("../img/yud.png")} />
+    const hey1 = <img height= {size} alt="firsthey" key="firsthey" className="firsthey" src={require("../img/firsthey.png")} />
+    const vav = <img height= {size} alt="vav" key="vav" className="vav" src={require("../img/vav.png")} />
+    const hey2 = <img height= {size} alt="secondhey" key="secondhey" className="secondhey" src={require("../img/firsthey.png")} />
 
         if (hour === 0 || hour === 12) {
            returnValue = [    
@@ -71,6 +74,6 @@ export default function newOrder(timeAsProp) {
         }
 
     return (
-         <div className={'Name Hr'+hour}>{returnValue}</div>    
+         <div className={'Name Hr'+hour} >{returnValue}</div>    
      );    
   }

@@ -53,13 +53,13 @@ class App extends Component {
           בסד
         </div>
         <div className="Header">
-          Redux Test
+          Shivisi Hashem
         </div>
         <div className="Name-Container">
-          <Order />
+            <Order />
         </div>
         <div className="Name-Container-Preview">
-           <OrderPreview />
+           <OrderPreview className="Name-Preview"/>
         </div>
         <div className="Time">
           {theTime}

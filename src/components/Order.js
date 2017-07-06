@@ -1,15 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import newOrder from '../utilities/newOrder';
+import theName from '../utilities/theName';
 
 class Order extends React.Component{  
 
        render() {
-        var time = this.props.currentTime.getHours();
+        let propsToBePassed = {
+         time: this.props.currentTime.getHours(),
+         letterSize: '400px'
+        }
          return (
                 <div>
-                    {newOrder(time)}
+                    {theName(propsToBePassed)}
                 </div>
             )
         // var timePreview = this.props.currentTime.getHours() + 1;
